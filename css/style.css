@@ -13,13 +13,22 @@ p{
 }
 
 .centered-wrapper{
-    width:500px;
+    width:800px;
     margin: 0 auto;
     text-align: left;
     padding-top: 150px;
     color: mediumorchid;
 }
 
+p.jing{
+    text-align: right;
+    color:darkseagreen;
+}
+
+a.jing{
+    text-align: right;
+    color:darkseagreen;
+}
 /* When giving a child element position absolute you should give the parent position value as well */
 /* The child will then be positioned absolute in realtion to the box container of the parent */
 /* positioning elements on the page is fundamental to understanding CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
@@ -32,6 +41,7 @@ p{
 .title a{
     position: absolute;
 }
+
 .title a.room{
     left: -50%;
     top: -20px;
@@ -60,6 +70,10 @@ p{
 a.dead-link:hover{
     opacity: 0;
     font-size: 20px;
+}
+
+.jing a.kite1{
+    color:lightblue;
 }
 
 span#ghost{

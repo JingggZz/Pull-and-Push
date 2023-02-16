@@ -20,12 +20,7 @@ p{
     color: mediumorchid;
 }
 
-p.jing{
-    text-align: right;
-    color:darkseagreen;
-}
-
-a.jing{
+.jing{
     text-align: right;
     color:darkseagreen;
 }
